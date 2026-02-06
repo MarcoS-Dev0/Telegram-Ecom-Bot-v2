@@ -1,0 +1,50 @@
+# ============================================
+# Telegram-Ecom-Bot-v2 — Python Dependencies
+# ============================================
+# Install: pip install -r requirements.txt
+
+# --- Core Framework ---
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# --- Telegram Bot ---
+python-telegram-bot==20.7
+
+# --- Database ---
+motor==3.3.2                   # Async MongoDB driver
+pymongo==4.6.1
+redis[hiredis]==5.0.1          # Redis with C parser
+
+# --- Payments ---
+stripe==7.8.0
+
+# --- HTTP & Async ---
+httpx==0.25.2
+aiofiles==23.2.1
+
+# --- Security ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# --- Internationalization ---
+babel==2.14.0
+
+# --- Logging & Monitoring ---
+structlog==24.1.0
+python-json-logger==2.0.7
+
+# --- Utilities ---
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+phonenumbers==8.13.27
+
+# --- Dev & Testing ---
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+ruff==0.1.11                   # Linter + formatter
+mypy==1.8.0
+pre-commit==3.6.0
